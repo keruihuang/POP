@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8E2EA28B1EC49BC6007F0995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA28A1EC49BC6007F0995 /* AppDelegate.swift */; };
-		8E2EA28D1EC49BC6007F0995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA28C1EC49BC6007F0995 /* ViewController.swift */; };
 		8E2EA2901EC49BC6007F0995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2EA28E1EC49BC6007F0995 /* Main.storyboard */; };
 		8E2EA2931EC49BC6007F0995 /* POP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2911EC49BC6007F0995 /* POP.xcdatamodeld */; };
 		8E2EA2951EC49BC6007F0995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2EA2941EC49BC6007F0995 /* Assets.xcassets */; };
 		8E2EA2981EC49BC6007F0995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2EA2961EC49BC6007F0995 /* LaunchScreen.storyboard */; };
+		8E2EA2A71EC4AB69007F0995 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2A61EC4AB69007F0995 /* HomeTableViewController.swift */; };
+		8E2EA2A91EC4B956007F0995 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2A81EC4B956007F0995 /* FriendsTableViewController.swift */; };
+		8E2EA2AB1EC4B967007F0995 /* ClubsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2AA1EC4B967007F0995 /* ClubsTableViewController.swift */; };
+		8E2EA2AD1EC4B987007F0995 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2AC1EC4B987007F0995 /* SearchTableViewController.swift */; };
+		8E2EA2AF1EC4BAB7007F0995 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2AE1EC4BAB7007F0995 /* MeTableViewController.swift */; };
+		8E2EA2B11EC4BD1A007F0995 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2B01EC4BD1A007F0995 /* MainTabBarController.swift */; };
+		8E2EA2B71EC6262F007F0995 /* CreatClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2EA2B61EC6262F007F0995 /* CreatClubsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E2EA2871EC49BC6007F0995 /* POP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2EA28A1EC49BC6007F0995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E2EA28C1EC49BC6007F0995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E2EA28F1EC49BC6007F0995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E2EA2921EC49BC6007F0995 /* POP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POP.xcdatamodel; sourceTree = "<group>"; };
 		8E2EA2941EC49BC6007F0995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E2EA2971EC49BC6007F0995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E2EA2991EC49BC6007F0995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2EA2A61EC4AB69007F0995 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		8E2EA2A81EC4B956007F0995 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		8E2EA2AA1EC4B967007F0995 /* ClubsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsTableViewController.swift; sourceTree = "<group>"; };
+		8E2EA2AC1EC4B987007F0995 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		8E2EA2AE1EC4BAB7007F0995 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		8E2EA2B01EC4BD1A007F0995 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		8E2EA2B61EC6262F007F0995 /* CreatClubsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatClubsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		8E2EA2891EC49BC6007F0995 /* POP */ = {
 			isa = PBXGroup;
 			children = (
-				8E2EA28A1EC49BC6007F0995 /* AppDelegate.swift */,
-				8E2EA28C1EC49BC6007F0995 /* ViewController.swift */,
+				8E2EA2A51EC4AB1F007F0995 /* SupportingFiles */,
 				8E2EA28E1EC49BC6007F0995 /* Main.storyboard */,
+				8E2EA2911EC49BC6007F0995 /* POP.xcdatamodeld */,
+				8E2EA2B01EC4BD1A007F0995 /* MainTabBarController.swift */,
+				8E2EA2A61EC4AB69007F0995 /* HomeTableViewController.swift */,
+				8E2EA2A81EC4B956007F0995 /* FriendsTableViewController.swift */,
+				8E2EA2AA1EC4B967007F0995 /* ClubsTableViewController.swift */,
+				8E2EA2AC1EC4B987007F0995 /* SearchTableViewController.swift */,
+				8E2EA2AE1EC4BAB7007F0995 /* MeTableViewController.swift */,
+				8E2EA2B61EC6262F007F0995 /* CreatClubsViewController.swift */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
+		8E2EA2A51EC4AB1F007F0995 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8E2EA28A1EC49BC6007F0995 /* AppDelegate.swift */,
 				8E2EA2941EC49BC6007F0995 /* Assets.xcassets */,
 				8E2EA2961EC49BC6007F0995 /* LaunchScreen.storyboard */,
 				8E2EA2991EC49BC6007F0995 /* Info.plist */,
-				8E2EA2911EC49BC6007F0995 /* POP.xcdatamodeld */,
 			);
-			path = POP;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2EA28D1EC49BC6007F0995 /* ViewController.swift in Sources */,
+				8E2EA2A71EC4AB69007F0995 /* HomeTableViewController.swift in Sources */,
+				8E2EA2AD1EC4B987007F0995 /* SearchTableViewController.swift in Sources */,
+				8E2EA2B71EC6262F007F0995 /* CreatClubsViewController.swift in Sources */,
+				8E2EA2B11EC4BD1A007F0995 /* MainTabBarController.swift in Sources */,
+				8E2EA2AF1EC4BAB7007F0995 /* MeTableViewController.swift in Sources */,
 				8E2EA28B1EC49BC6007F0995 /* AppDelegate.swift in Sources */,
+				8E2EA2A91EC4B956007F0995 /* FriendsTableViewController.swift in Sources */,
 				8E2EA2931EC49BC6007F0995 /* POP.xcdatamodeld in Sources */,
+				8E2EA2AB1EC4B967007F0995 /* ClubsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
